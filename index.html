@@ -13,19 +13,16 @@
 </head>
 <body class="shower list">
 
-    <header class="caption">
-        <h1>Shower Presentation Engine</h1>
-        <p>Yours Truly, Famous Inc.</p>
-    </header>
+<!--     <header class="caption">
+        <h1>Test driven development</h1>
+        <p>Методология разработки через тестирование</p>
+    </header> -->
 
     <section class="slide" id="cover">
-        <h2>Shower Presentation Engine</h2>
-        <p>Brought to you by <a href="http://pepelsbey.net">Vadim Makeev</a></p>
+        <!-- <h2>Test driven development</h2> -->
+        <!-- <p>Petr Karmashev</p> -->
         <figure>
-            <img class="cover" src="pictures/cover.jpg" alt="Hands on the orange typewriter in a park">
-            <figcaption class="copyright right white">
-                <a href="http://fiftyfootshadows.net/">© John Carey</a>
-            </figcaption>
+            <img class="cover" src="pictures/tdd2.png">
         </figure>
         <style>
             #cover h2 {
@@ -50,161 +47,153 @@
     </section>
 
     <section class="slide">
-        <h2>Shower key features</h2>
+        <h2>Круг разработки через тестирование</h2>
         <ol>
-            <li>Built on HTML, CSS and JavaScript</li>
-            <li>Works in all modern browsers</li>
-            <li>Themes are separated from engine</li>
-            <li>Fully keyboard accessible</li>
-            <li>Printable to PDF</li>
-        </ol>
-        <p class="note">Shower ['ʃəuə] noun. A person or thing that shows.</p>
-    </section>
-
-    <section class="slide">
-        <h2>Plain text on your slides</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur <a href="#4">adipisicing</a> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <em>quis nostrud</em> exercitation ullamco laboris <strong>nisi ut aliquip</strong> ex ea commodo consequat. Duis aute irure <i>dolor</i> in reprehenderit in voluptate velit esse cillum <b>dolore</b> eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in <code>&lt;culpa&gt;</code> qui officia deserunt mollit anim id est laborum.</p>
-    </section>
-
-    <section class="slide">
-        <h2>Two columns if you like</h2>
-        <div class="columns two">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-        </div>
-    </section>
-
-    <section class="slide">
-        <h2>All kind of lists</h2>
-        <ol>
-            <li>Simple lists are marked with bullets</li>
-            <li>Ordered lists begin with a number</li>
-            <li>You can even nest lists one inside another
-                <ul>
-                    <li>Or mix their types</li>
-                    <li>But do not go too far</li>
-                    <li>Otherwise audience will be bored</li>
-                </ul>
-            </li>
-            <li>Look, seven rows exactly!</li>
+            <li>Тест</li>
+            <li>Реализация</li>
+            <li>Рефакторинг</li>
         </ol>
     </section>
 
     <section class="slide">
-        <h2>Serious citations</h2>
-        <figure>
-            <blockquote>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-            </blockquote>
-            <figcaption>Marcus Tullius Cicero</figcaption>
-        </figure>
+        <h2 class="shout shrink">Тест</h2>
     </section>
 
     <section class="slide">
-        <h2>Code samples</h2>
-        <pre>
-            <code>&lt;!DOCTYPE html&gt;</code>
-            <code class="mark">&lt;html lang="en"&gt;</code>
-            <code><mark>&lt;head&gt;</mark> <span class="comment">&lt;!--Comment--&gt;</span></code>
-            <code>    &lt;title&gt;Shower&lt;/title&gt;</code>
-            <code>    &lt;meta charset="<mark class="important">UTF-8</mark>"&gt;</code>
-            <code>    &lt;link rel="stylesheet" href="screen.css"&gt;</code>
-            <code><mark>&lt;/head&gt;</mark></code>
-        </pre>
+        <h2>Тест</h2>
+        <p>Тест на минимальную функциональность (в идеале строка, атомарная операция, одно условие, один вызов метода)</p>
+		<p>Запуск теста, должен упасть (даже по причине отсутствия метода)</p>
     </section>
 
     <section class="slide">
-        <h2>Even tables</h2>
-        <table>
-        <tr>
-            <th scope="col">Locavore</th>
-            <th>Umami</th>
-            <th>Helvetica</th>
-            <th>Vegan</th>
-        </tr>
-        <tr>
-            <th scope="row">Fingerstache</th>
-            <td>Kale</td>
-            <td>Chips</td>
-            <td>Keytar</td>
-        </tr>
-        <tr>
-            <th scope="row">Sriracha</th>
-            <td>Gluten-free</td>
-            <td>Ennui</td>
-            <td>Keffiyeh</td>
-        </tr>
-        <tr>
-            <th scope="row">Thundercats</th>
-            <td>Jean</td>
-            <td>Shorts</td>
-            <td>Biodiesel</td>
-        </tr>
-        <tr>
-            <th scope="row">Terry</th>
-            <td>Richardson</td>
-            <td>Swag</td>
-            <td>Blog</td>
-        </tr>
-        </table>
-        <p>It’s good to have information organized.</p>
-    </section>
-
-    <section class="slide" id="picture">
-        <h2>Pictures</h2>
-        <figure>
-            <img class="cover" src="pictures/picture.jpg" alt="Orange typewriter on a wooden table close-up">
-            <figcaption class="copyright right white">
-                <a href="http://fiftyfootshadows.net/">© John Carey</a>
-            </figcaption>
-        </figure>
-        <style>
-            #picture h2 {
-                color: white;
-            }
-        </style>
+        <h2 class="shout shrink">Реализация</h2>
     </section>
 
     <section class="slide">
-        <h2 class="shout shrink">You can even shout this way</h2>
+        <h2>Реализация</h2>
+        <p>Цель сделать чтобы тест проходил минимально возможным способом</p>
+		<p>(30 секунд)</p>
     </section>
 
     <section class="slide">
-        <h2>Inner navigation</h2>
+        <h2 class="shout shrink">Рефакторинг</h2>
+    </section>
+
+    <section class="slide">
+        <h2>Рефакторинг реализации</h2>
+		<p>На соответствие правилам кода проекта, оптимизация решения</p>
+    </section>
+
+    <section class="slide">
+        <h2>Рефакторинг теста</h2>
+		<p>Проверить что названия тестовых методов отражает смысл проверки</p>
+		<p>Удалить лишние, повторяющиеся тест кейсы</p>
+    </section>
+
+    <section class="slide">
+        <h2 class="shout shrink">Законы</h2>
+    </section>
+
+    <section class="slide">
+        <h2>Законы</h2>
         <ol>
-            <li>Lets you reveal list items one by one</li>
-            <li class="next">To keep some key points</li>
-            <li class="next">In secret from audience</li>
-            <li class="next">But it will work only once</li>
-            <li class="next">Nobody wants to see the same joke twice</li>
+            <li>В проде не должно быть кода, который не чинит сломанные тесты</li>
+            <li>Каждый класс должен иметь набор тестов, а каждый публичный метод свой тест</li>
         </ol>
     </section>
 
-    <section class="slide" id="see-more">
-        <h2 class="shout">
-            <img src="pictures/logo.svg" alt="Shower logo">
-            <a href="https://github.com/shower/shower">See more on GitHub</a>
-        </h2>
-        <style>
-            #see-more h2 {
-                font-size: 100px
-            }
-
-            #see-more img {
-                width: 0.72em;
-                height: 0.72em;
-            }
-        </style>
+    <section class="slide">
+        <h2 class="shout shrink">Плюсы и минусы подхода</h2>
     </section>
 
-    <footer class="badge">
-        <a href="https://github.com/shower/shower">Fork me on GitHub</a>
-    </footer>
+    <section class="slide">
+        <h2>Плюсы</h2>
+        <ol>
+			<li>Чистый лист, понятно с чего начать, готовая методология написания кода</li>
+			<li>Понятны критерии прохождения теста и завершения работы</li>
+			<li>Сразу видны недостатки в требованиях</li>
+			<li>Быстрее написание кода, т.к. понятен следующий шаг, шаги маленькие</li>
+			<li>Высокое покрытие, уверенность в коде</li>
+			<li>Чистый код, за счет тестируемости - solid</li>
+			<li>Проще и понятнее рефакторинг</li>
+        </ol>
+    </section>
+
+    <section class="slide">
+        <h2>Еще плюсы</h2>
+        <ol>
+			<li>Тесты и рефакторинг включены в стоимость решения задачи, пока пишешь тест думаешь над результатом реализации</li>
+			<li>Меньше техдолг</li>
+			<li>Готовое описание работы класса для того кто собирается его использовать. Ревью можно делать начиная с чтения тестов</li>
+			<li>Сначала думаешь, потом пишешь код</li>
+        </ol>
+    </section>
+
+    <section class="slide">
+        <h2>Минусы</h2>
+        <ol>
+			<li>Непривычно думать наоборот</li>
+			<li>Хрупкость, нужно часто править тесты, т.к. они будут меняться за архитектурой</li>
+			<li>Нужно поддерживать моки</li>
+			<li>На практике не учитывается клиентский код, и конфигурация - тесты могут проходить но проект не будет рабочим</li>
+        </ol>
+    </section>
+
+    <section class="slide">
+        <h2>Еще минусы</h2>
+        <ol>
+			<li>Бывает что легко добавить одну строку в тестируемый метод, например для обработки эксепшена или null, а тест на этот случай писать долго и велик соблазн сразу добавить строку</li>
+			<li>Не всегда подходит если требования спускаются в виде сложного алгоритма, который не написать итеративно</li>
+        </ol>
+    </section>
+
+    <section class="slide">
+        <h2 class="shout shrink">Подробнее про минусы</h2>
+    </section>
+
+    <section class="slide">
+        <h2>Думать наоборот</h2>
+        <p>Окупается при вырабатывании привычки</p>
+    </section>
+
+    <section class="slide">
+        <h2>Хрупкость</h2>
+        <p>Барьер для излишнего усложнения архитектуры, ее доказанная оправданность</p>
+    </section>
+
+    <section class="slide">
+        <h2>Моки</h2>
+        <p>Есть библиотеки для их генерации</p>
+        <p>Моки это хорошее минимальное описание поведения внешннго сервиса, при их анализе можно заметить ошибки проектирования и лучше понять поведение</p>
+    </section>
+
+    <section class="slide">
+        <h2>Моки</h2>
+        <p>Есть библиотеки для их генерации</p>
+        <p>Моки это хорошее минимальное описание поведения внешннго сервиса, при их анализе можно заметить ошибки проектирования и лучше понять поведение</p>
+    </section>
+
+    <section class="slide">
+        <h2>Не учитывается клиентский код</h2>
+        <p>Кроме юнитов, необходим иной слой тестов - end to end, приемочные, которые тоже можно рассмотреть в цикле bdd->tdd</p>
+    </section>
+
+    <section class="slide">
+        <h2>Легко добавить одну строку</h2>
+        <p>Проблема в том что если строка не была покрыта, то содержит потенциальный баг - неверное поведение, условие, или является избыточной</p>
+    </section>
+
+    <section class="slide">
+        <h2>Не всегда подходит для алгоритмов</h2>
+        <p>Частично решается разбиением алгоритма на тестируемые части</p>
+    </section>
+
+    <section class="slide">
+        <h2 class="shout shrink">Use TDD or die trying!</h2>
+    </section>
 
     <div class="progress"></div>
 
     <script src="node_modules/shower-core/shower.min.js"></script>
-    <!-- Copyright © 3000 Yours Truly, Famous Inc. -->
-
 </body>
 </html>
